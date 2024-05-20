@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<title>Index</title>
+<link rel="stylesheet" href="Malak.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+        a{
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+        }
+        #logo {
+      background-color: rgb(109, 216, 249); 
+      color:rgb(0, 0, 0) ; 
+      }
+        @media (max-width: 576px) {
+          .jumbotron {
+              font-size: 150%;
+          }
+        }
+       
+    </style>
+    <script> function getCurrentDateTime() {
+        var now = new Date();
+        var dateTimeString = now.toLocaleString();
+        document.getElementById('datetime').innerHTML = dateTimeString;
+        }
+    </script>
+</head>
+<body style="background-color: #a2e2f7db;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(109, 216, 249);">
+    
+        <div class="container-fluid">
+            <a class="navbar-brand" id="logo" href="#">MADH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+              <li class="nav-item"> <a href="Index.html" >Home</a></li>
+              <li class="nav-item"> <a href="AboutUs.html">About Us</a></li>
+              <li class="nav-item"> <a href="Teachers.html">Teachers</a></li>
+              <li class="nav-item"> <a href="ContactUs.html">Contact Us</a></li>
+              <li class="nav-item"> <a href="Review.html">Review</a></li>
+              <li class="nav-item"> <a href="WorkSheets.html">Work Sheets</a></li>
+              <li class="nav-item"> <a href="GPACalc.html">GPA</a></li>
+            </ul>
+            </div>
+          </div>
+         </div>
+       </nav>
+       
+    <div class="container">
+     <br><br>
+     <div class="jumbotron text-center">
+        <h1 class="display-3"><em><i>Learn English Easily with MADH</i></em></h1>
+    </div>
+     <br><br>
+
+     <h1 class="text-center" style="color: rgb(0, 0, 0);">Welcome to Our Website</h1>
+
+     <br><br>
+     <img src="english.jpg" alt="Card Image" class="img-fluid mx-auto d-block" style="padding-left: 100px;" >
+
+     <br><br>
+     <br><br>
+
+      <div class="text-center" style="font-size: 200%; text-align: center;">In our Website you will be able to get free classes and free Worksheets so you can learn English easly , also u can contact us for more anytime .. we will be happy to help </div>
+       
+     <h3 class="text-center" style="text-align: center; color: rgb(0, 17, 90)">If you want to know more about our Websites go to the About Us Page</h3>
+    
+     <a href="AboutUs.html" class="d-block text-center" style="color: rgb(19, 34, 195);">Click Here</a>
+    </div> 
+    <span id="datetime"></span>
+    <script>
+            
+        getCurrentDateTime();
+        
+      </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MADH Teachers </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    
+    a{
+      color: white;
+      padding: 20px;
+      text-decoration: none;
+      border: none;
+      font-size: 18px;
+      
+      
+      }
+    a:hover{
+      color: white;
+      border: 1px none blue;
+      color: #fff;
+      text-decoration: none;
+      }
+      #logo {
+      background-color: rgb(109, 216, 249); 
+      color:rgb(0, 0, 0) ; 
+      }
+        @media (max-width: 576px) {
+          .jumbotron {
+              font-size: 150%;
+          }
+        }
+
+  </style>
+  <script>
+    function getCurrentDateTime() {
+            var now = new Date();
+            var dateTimeString = now.toLocaleString();
+            document.getElementById('datetime').innerHTML = dateTimeString;
+        }
+  </script>
+</head>
+<body style="background-color: #a2e2f7db;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(109, 216, 249);">
+    
+    <div class="container-fluid">
+        <a class="navbar-brand" id="logo" href="#">MADH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+          <li class="nav-item"> <a href="Index.html" >Home</a></li>
+          <li class="nav-item"> <a href="AboutUs.html">About Us</a></li>
+          <li class="nav-item"> <a href="Teachers.html">Teachers</a></li>
+          <li class="nav-item"> <a href="ContactUs.html">Contact Us</a></li>
+          <li class="nav-item"> <a href="Review.html">Review</a></li>
+          <li class="nav-item"> <a href="WorkSheets.html">Work Sheets</a></li>
+          <li class="nav-item"> <a href="GPACalc.html">GPA</a></li>
+        </ul>
+        </div>
+      </div>
+     </div>
+   </nav>
+   <section class="container mt-4">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+
+      <div class="card">
+        <img src="Teacher1.jpg" class="card-img-top" alt="T.Anas Al-bluwe">
+        <div class="card-body">
+          <h5 class="card-title">T.Anas Al-Bluwe</h5>
+          <a href="Teacher1.html" class="btn btn-primary" style="background-color: blue;">Show Bio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="Teacher2.jpg" class="card-img-top" alt="T.Shadi Al-Najjar">
+        <div class="card-body">
+          <h5 class="card-title">T.Shadi Al-Najjar</h5>
+          <a href="Teacher2.html" class="btn btn-primary">Show Bio</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <br><br>
+    <span id="datetime"></span>
+    </section>
+    
+    
+    <script>
+      getCurrentDateTime();
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
